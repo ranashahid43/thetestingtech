@@ -30,7 +30,34 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
 
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ttt {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--blue);
+  letter-spacing: 4px;
+  line-height: 1;
+}
+
+.subtitle {
+  font-size: 0.85rem;
+  color: #fff;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  margin-top: -5px;
+}
 .logo {
   display: flex;
   align-items: center;
