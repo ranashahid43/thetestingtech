@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Testing Tech | We Test. You Trust.</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#2da9ff" />
+              <stop offset="100%" style="stop-color:#7ed3ff" />
+            </linearGradient>
+          </defs>
+          <path d="M50 10 L90 30 L90 70 L50 90 L10 70 L10 30 Z" fill="none" stroke="url(#grad)" stroke-width="6"/>
+          <circle cx="50" cy="40" r="15" fill="none" stroke="url(#grad)" stroke-width="4"/>
+          <path d="M35 55 L45 65 L65 45" stroke="url(#grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <circle cx="35" cy="35" r="5" fill="url(#grad)"/>
+          <circle cx="65" cy="35" r="5" fill="url(#grad)"/>
+          <path d="M50 55 Q40 70 30 65 Q40 75 50 70 Q60 75 70 65 Q60 70 50 55" fill="url(#grad)" opacity="0.6"/>
+        </svg>
+        TTT
+        <span>The Testing Tech</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" class="active" data-en="Home" data-it="Home">Home</a>
+        <a href="services.html" data-en="Services" data-it="Servizi">Services</a>
+        <a href="contact.html" class="nav-cta" data-en="Contact" data-it="Contatti">Contact</a>
+        <div class="lang-switcher">
+          <span class="lang-btn active" data-lang="en">EN</span>
+          <span class="lang-btn" data-lang="it">IT</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1 data-en="Protagonists of <span>Digital Quality</span><br>We Test. You Trust." data-it="Protagonisti della <span>Qualità Digitale</span><br>Testiamo. Ti Fidiamo.">
+        Protagonists of <span>Digital Quality</span><br>We Test. You Trust.
+      </h1>
+      <p data-en="Premium QA and software testing solutions leveraging expertise and innovation to ensure flawless digital experiences." data-it="Soluzioni premium di QA e testing software che sfruttano competenza e innovazione per garantire esperienze digitali perfette.">
+        Premium QA and software testing solutions leveraging expertise and innovation to ensure flawless digital experiences.
+      </p>
+      <a href="contact.html" class="btn" data-en="Request Consultation" data-it="Richiedi Consulenza">Request Consultation</a>
+      <a href="services.html" class="btn secondary" style="margin-left: 30px;" data-en="Explore Services" data-it="Esplora Servizi">Explore Services</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2 data-en="Our Testing Services" data-it="I Nostri Servizi di Testing">Our Testing Services</h2>
+    <div class="services">
+      <div class="glass service">
+        <i class="fa-solid fa-bug"></i>
+        <h3 data-en="Manual Testing" data-it="Testing Manuale">Manual Testing</h3>
+        <p data-en="Precision through human expertise." data-it="Precisione grazie all'esperienza umana.">Precision through human expertise.</p>
+        <a href="services.html#manual" class="btn" style="margin-top: 30px; padding: 12px 24px; font-size: 0.95rem;" data-en="Learn More" data-it="Scopri di Più">Learn More</a>
+      </div>
+
+      <!-- Repeat for all 5 other services with data-en and data-it -->
+      <!-- (Same pattern as above - I've abbreviated for space, but include all in your file) -->
+
+      <div class="glass service">
+        <i class="fa-solid fa-robot"></i>
+        <h3 data-en="Automation Testing" data-it="Testing Automatizzato">Automation Testing</h3>
+        <p data-en="Efficiency and speed." data-it="Efficienza e velocità.">Efficiency and speed.</p>
+        <a href="services.html#automation" class="btn" style="margin-top: 30px; padding: 12px 24px; font-size: 0.95rem;" data-en="Learn More" data-it="Scopri di Più">Learn More</a>
+      </div>
+
+      <div class="glass service">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3 data-en="Web & Mobile Testing" data-it="Testing Web & Mobile">Web & Mobile Testing</h3>
+        <p data-en="Flawless across platforms." data-it="Perfetto su tutte le piattaforme.">Flawless across platforms.</p>
+        <a href="services.html#mobile-web" class="btn" style="margin-top: 30px; padding: 12px 24px; font-size: 0.95rem;" data-en="Learn More" data-it="Scopri di Più">Learn More</a>
+      </div>
+
+      <div class="glass service">
+        <i class="fa-solid fa-brain"></i>
+        <h3 data-en="AI & ML Testing" data-it="Testing AI & ML">AI & ML Testing</h3>
+        <p data-en="Intelligent validation." data-it="Validazione intelligente.">Intelligent validation.</p>
+        <a href="services.html#ai-ml" class="btn" style="margin-top: 30px; padding: 12px 24px; font-size: 0.95rem;" data-en="Learn More" data-it="Scopri di Più">Learn More</a>
+      </div>
+
+      <div class="glass service">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3 data-en="Security Testing" data-it="Testing di Sicurezza">Security Testing</h3>
+        <p data-en="Robust protection." data-it="Protezione robusta.">Robust protection.</p>
+        <a href="services.html#security" class="btn" style="margin-top: 30px; padding: 12px 24px; font-size: 0.95rem;" data-en="Learn More" data-it="Scopri di Più">Learn More</a>
+      </div>
+
+      <div class="glass service">
+        <i class="fa-solid fa-gauge-high"></i>
+        <h3 data-en="Performance Testing" data-it="Testing delle Prestazioni">Performance Testing</h3>
+        <p data-en="Scalable reliability." data-it="Affidabilità scalabile.">Scalable reliability.</p>
+        <a href="services.html#performance" class="btn" style="margin-top: 30px; padding: 12px 24px; font-size: 0.95rem;" data-en="Learn More" data-it="Scopri di Più">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+<footer>
+  <div class="footer-columns">
+    <!-- Column 1: Company -->
+    <div class="footer-column">
+      <h4 data-en="Company" data-it="Azienda">Company</h4>
+      <ul>
+        <li><a href="#" data-en="About Us" data-it="Chi Siamo">About Us</a></li>
+        <li><a href="#" data-en="Our Team" data-it="Il Nostro Team">Our Team</a></li>
+        <li><a href="#" data-en="Careers" data-it="Carriere">Careers</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 2: Services -->
+    <div class="footer-column">
+      <h4 data-en="Services" data-it="Servizi">Services</h4>
+      <ul>
+        <li><a href="services.html#manual" data-en="Manual Testing" data-it="Testing Manuale">Manual Testing</a></li>
+        <li><a href="services.html#automation" data-en="Automation Testing" data-it="Testing Automatizzato">Automation Testing</a></li>
+        <li><a href="services.html#mobile-web" data-en="Web & Mobile Testing" data-it="Testing Web & Mobile">Web & Mobile Testing</a></li>
+        <li><a href="services.html#security" data-en="Security Testing" data-it="Testing di Sicurezza">Security Testing</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Contact -->
+    <div class="footer-column">
+      <h4 data-en="Contact" data-it="Contatti">Contact</h4>
+      <ul>
+        <li>Via della Concordia<br>Italy</li>
+        <li><a href="tel:+393510388324">(+39) 351 038 8324</a></li>
+        <li><a href="mailto:info@thetestingtech.com">info@thetestingtech.com</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Social -->
+    <div class="footer-column footer-social">
+      <h4 data-en="Follow Us" data-it="Seguici">Follow Us</h4>
+      <a href="https://facebook.com/thetestingtech" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="https://instagram.com/thetestingtech" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://linkedin.com/company/thetestingtech" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+      <a href="https://x.com/thetestingtech" target="_blank"><i class="fab fa-x-twitter"></i> X (Twitter)</a>
+    </div>
+  </div>
+
+  <div class="copyright" data-en="© 2025 The Testing Tech. All rights reserved." data-it="© 2025 The Testing Tech. Tutti i diritti riservati.">
+    © 2025 The Testing Tech. All rights reserved.
+  </div>
+</footer>
+
+  <script>
+    const langBtns = document.querySelectorAll('.lang-btn');
+    langBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        document.querySelectorAll('[data-en]').forEach(el => {
+          el.textContent = el.getAttribute(`data-${lang}`);
+        });
+        langBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
